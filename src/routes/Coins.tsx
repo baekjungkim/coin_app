@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Helmet } from "react-helmet";
 import { useQuery } from "react-query";
 import { Link } from "react-router-dom";
@@ -16,7 +16,7 @@ import {
   Loader,
   CoinList,
   Coin,
-  Img
+  Img,
 } from "../styled/Coins";
 
 import { ICoin } from "../type/Coins";
